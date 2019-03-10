@@ -1,0 +1,31 @@
+.feedback label {
+    display: block;
+}
+input[type="checkbox"] + label {
+    display: inline;
+}
+.feedback .text-danger {
+    color: #CC0000;
+    display: block;
+    font-size: 80%;
+    line-height: 120%;
+}
+
+.feedback .form-control {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.feedback .btn {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.feedback .has-error > .form-control {
+    border-color: #c00;
+}
+
+.alert {padding: 10px 20px;margin:5px 0;font-size:130%;}
+.alert-success {background:#C3FCBD;border: 1px solid green;}
+.alert-danger {background:#F9B3B3;border: 1px solid red;}

@@ -1,0 +1,72 @@
+body, html {
+    font-size: 14px;
+    color: #555;
+    overflow-x: hidden;
+    background-color: #F0F0F2;
+}
+
+.cube-slider {
+    background-color: #222;
+    overflow: hidden;
+}
+
+#header, h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    font-weight: bold;
+}
+
+#header {
+    padding: .7em 0;
+    padding-left: 25%;
+    font-size: 4em;
+}
+
+#top_menu {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+#content, #aside {
+    margin: 3em 0;
+}
+@media (max-width: 992px) {
+    #content{margin-top: 0;}
+}
+main.row, main.row > article {
+    padding: 0;
+}
+#aside {padding: 2em 1em;}
+#content {
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    border-radius: 2px;
+}
+#aside ul {
+    list-style: none;
+}
+#aside ul > li > a {
+    display: block;
+    color: inherit;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    margin-bottom: 0.5em;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+#aside ul > li > a:hover {
+    text-decoration: none;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+    transform: translateY(2px);
+    z-index: 100;
+}
+
+#footer {
+    background-color: #222;
+    color: #fff;
+}
+#footer a {color: inherit;}
+#footer > .row > div {
+    padding: 3em 2em;
+}
