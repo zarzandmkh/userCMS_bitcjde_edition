@@ -11,3 +11,6 @@ changes log
 -changed image save helper (added multiple upload function)
 
 ATTENTION! gallery, mode generator and image saver helper changes are not in core. They`re added in site_root/modules/ directory as modules so it allows to update dms withhout losing these changes  
+
+Original version website http://www.usercms.ru
+Original version official documentation http://www.usercms.ru/docs
